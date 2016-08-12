@@ -12,7 +12,7 @@ import java.util.ListIterator;
  */
 public class SpeedTest {
     public static final long COUNT = 1_000_000;
-    private static TestObject testObject = new TestObject();
+    private static TestObject testObject = new TestObject(); //толстый объект
 
     public static void main(String[] args) {
         List<TestObject> arrayList = new ArrayList<>();
