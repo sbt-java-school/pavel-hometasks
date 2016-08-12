@@ -25,7 +25,7 @@ Accessing 500000 element 1000000 times in LinkedList using ListIterator...
 71 ms
 ```
 ###Вывод: Случайное чтение LinkedList почти не проигрывает по скорости ArrayList'у, если использовать ListIterator
-
+с
 > 1. Реализовать интерфейс Comparable
 > 1. Использовать Collections.sort();  
 > 1. Использовать Collections.shuffle();  
