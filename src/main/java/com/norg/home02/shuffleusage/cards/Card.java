@@ -9,8 +9,9 @@ public class Card implements Comparable<Card> {
 
     /**
      * Создает карту по переданным масти и номиналу
-     * @param mast  Масть
-     * @param nominal   Номинал. 1 - туз, 2-10 - цифры, 11-13 - валет-король
+     *
+     * @param mast    Масть
+     * @param nominal Номинал. 1 - туз, 2-10 - цифры, 11-13 - валет-король
      */
     public Card(Mast mast, int nominal) {
         if (mast == null) {
@@ -60,7 +61,7 @@ public class Card implements Comparable<Card> {
                 nominalRepresentation = "K";
                 break;
         }
-        return nominalRepresentation+mast.toString();
+        return nominalRepresentation + mast.toString();
     }
 
     @Override

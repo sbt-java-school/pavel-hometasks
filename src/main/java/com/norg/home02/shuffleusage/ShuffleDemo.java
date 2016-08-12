@@ -2,8 +2,6 @@ package com.norg.home02.shuffleusage;
 
 import com.norg.home02.shuffleusage.cards.Deck;
 
-import java.util.Collections;
-
 /**
  * Created by pavel.krizhanovskiy on 12.08.2016.
  */
