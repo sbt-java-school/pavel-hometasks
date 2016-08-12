@@ -25,7 +25,7 @@ public class SpeedTest {
         System.out.println("" + arrayListEnd + " ms");
 
         arrayList.clear();
-        //эта операция займет значительно больше времени, порядка нескольких минут!
+        //эта операция займет значительно больше времени, почти 10 минут!
         System.out.println(String.format("Adding %d same Test Object to the beginning of ArrayList...", COUNT));
         start = System.currentTimeMillis();
         for (long i = 0; i<COUNT; i++) {
@@ -52,22 +52,30 @@ public class SpeedTest {
         int linkedListBeginning = (int) (System.currentTimeMillis() - start);
         System.out.println("" + linkedListBeginning + " ms");
 
-        System.out.println(String.format("Accessing %d element in ArrayList...", (int)(COUNT/2)));
+        System.out.println(String.format("Accessing %d element %d times in ArrayList...", (int)(COUNT/2), COUNT));
         start = System.currentTimeMillis();
-        arrayList.get((int)(COUNT/2));
+        for (int i=0; i<COUNT; i++) {
+            arrayList.get((int) (COUNT / 2));
+        }
         int arrayListAccess = (int) (System.currentTimeMillis() - start);
         System.out.println("" + arrayListAccess + " ms");
 
-        System.out.println(String.format("Accessing %d element in LinkedList...", (int)(COUNT/2)));
+        //ОЧЕНЬ долгая операция, больше 30 минут!
+        System.out.println(String.format("Accessing %d element %d times in LinkedList...", (int)(COUNT/2), COUNT));
         start = System.currentTimeMillis();
-        linkedList.get((int)(COUNT/2));
+        for (int i=0; i<COUNT; i++) {
+            linkedList.get((int) (COUNT / 2));
+        }
         int linkedListAccess = (int) (System.currentTimeMillis() - start);
         System.out.println("" + linkedListAccess + " ms");
 
-        System.out.println(String.format("Accessing %d element in LinkedList using ListIterator...", (int)(COUNT/2)));
+        System.out.println(String.format("Accessing %d element %d times in LinkedList using ListIterator...", (int)
+                (COUNT/2), COUNT));
         start = System.currentTimeMillis();
-        ListIterator<TestObject> listIterator = arrayList.listIterator((int)(COUNT/2));
-        listIterator.next();
+        for(int i=0; i<COUNT; i++) {
+            ListIterator<TestObject> listIterator = arrayList.listIterator((int) (COUNT / 2));
+            listIterator.next();
+        }
         int linkedListIteratorAccess = (int) (System.currentTimeMillis() - start);
         System.out.println("" + linkedListIteratorAccess + " ms");
 

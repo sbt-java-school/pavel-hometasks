@@ -10,21 +10,23 @@
 
 ```Output:
 Adding 1000000 same Test Object to the end of ArrayList...
-72 ms  
+53 ms
 Adding 1000000 same Test Object to the beginning of ArrayList...
-525069 ms  
+508554 ms
 Adding 1000000 same Test Object to the end of LinkedList...
-24 ms  
+68 ms
 Adding 1000000 same Test Object to the beginning of LinkedList...
-34 ms  
-Accessing 500000 element in ArrayList...
-0 ms  
-Accessing 500000 element in LinkedList...
-2 ms  
-Accessing 500000 element in LinkedList using ListIterator...
-0 ms
+42 ms
+Accessing 500000 element 1000000 times in ArrayList...
+19 ms
+Accessing 500000 element 1000000 times in LinkedList...
+2136887 ms
+Accessing 500000 element 1000000 times in LinkedList using ListIterator...
+71 ms
 ```
-> 1. Реализовать интерфейс Comparable  
+###Вывод: Случайное чтение LinkedList почти не проигрывает по скорости ArrayList'у, если использовать ListIterator
+
+> 1. Реализовать интерфейс Comparable
 > 1. Использовать Collections.sort();  
 > 1. Использовать Collections.shuffle();  
 
