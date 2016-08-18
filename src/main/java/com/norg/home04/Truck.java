@@ -22,7 +22,7 @@ public class Truck {
 
     @Override
     public String toString() {
-        return "Truck{" +
+        return getClass().getSimpleName() + "{" +
                 "id=" + id +
                 ", capacity=" + capacity +
                 '}';
