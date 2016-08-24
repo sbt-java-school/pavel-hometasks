@@ -1,6 +1,9 @@
 package com.norg.home06.task02;
 
 import java.lang.reflect.Method;
+import java.util.List;
+
+import static com.norg.home06.ClassUtils.getGetters;
 import static com.norg.home06.ClassUtils.getMethodArgs;
 
 /**
@@ -13,12 +16,10 @@ public class Main {
     }
 
     public static void printGetters(String className) throws Exception {
-        Class clazz = Class.forName(className);
-        Method[] methods = clazz.getMethods();
-        for (Method method : methods) {
-            if (method.getName().startsWith("get") || method.getName().startsWith("is")) {
-                System.out.println(method.getName()+getMethodArgs(method));
-            }
+        List<Method> getters = getGetters(className);
+
+        for (Method method : getters) {
+            System.out.println(method.getName()+getMethodArgs(method));
         }
     }
 }
