@@ -3,6 +3,7 @@ package com.norg.home04;
 import com.norg.home04.multimap.MultiMap;
 import com.norg.home04.multimap.MultiMapArrayList;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -20,10 +21,10 @@ public class Application {
             }
         }
 
-        multiMap.put("MAZ", new MegaTruck(112, 23));
-        multiMap.put("MAZ", new MegaTruck(444, 18));
+    }
 
-        List<Truck> megaTruck = multiMap.get("MAZ");
+    public Application() {
+
     }
 
     void viewTruckRegistry() {
@@ -41,16 +42,18 @@ public class Application {
     }
 
     public static void main(String[] args) {
-        TruckDao truckDao = new TruckDaoMemoryImpl();
-        Application application = new Application(truckDao);
-        application.viewTruckRegistry();
-        truckDao.list().listIterator(5);
-    }
+//        TruckDao truckDao = new TruckDaoMemoryImpl();
+        Application application = new Application();
 
-    class MegaTruck extends Truck {
+        application.multiMap.put("MAZ", new Truck(123, 20));
+        application.multiMap.put("MAZ", new MegaTruck(112, 23));
+        application.multiMap.put("MAZ", new MegaTruck(444, 18));
+        application.multiMap.put("MAZ", new Truck(567, 21));
 
-        public MegaTruck(long id, int capacity) {
-            super(id, capacity);
-        }
+        application.multiMap.put("KAMAZ", new Truck(432, 15));
+        application.multiMap.put("KAMAZ", new MegaTruck(432, 15));
+
+        Collection<Truck> trucks = application.multiMap.get("MAZ");
+        System.out.println(trucks);
     }
 }
