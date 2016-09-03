@@ -31,7 +31,7 @@ public class Main implements Representable {
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream));
         writer.write("********\n");
         writer.write("# Домашнее задание 01\n");
-        writer.write("### Реализована задача по загрузке грузовика (см. код)\n");
+        writer.write("### Реализована задача по загрузке грузовика (см. код)\n\n");
         writer.flush();
     }
 }

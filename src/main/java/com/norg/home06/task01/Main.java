@@ -40,5 +40,6 @@ public class Main implements Representable {
         main(null);
         System.setOut(stdOut);
         writer.flush();
+        writer.write("\n\n");
     }
 }

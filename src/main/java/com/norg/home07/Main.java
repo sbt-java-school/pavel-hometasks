@@ -18,16 +18,16 @@ public class Main implements Representable {
 
         long start = System.currentTimeMillis();
         System.out.println(cachedCalc.longCalculation(5));
-        System.out.println("cachedCalc.longCalculation(5)");
-        System.out.println(System.currentTimeMillis()-start + " ms"); //60-80 ms
+        System.out.println("cachedCalc.longCalculation(5)  ");
+        System.out.println(System.currentTimeMillis()-start + " ms  "); //60-80 ms
         start = System.currentTimeMillis();
         System.out.println(cachedCalc.longCalculation(9));
-        System.out.println("cachedCalc.longCalculation(9)");
-        System.out.println(System.currentTimeMillis()-start + " ms"); //35-40 ms
+        System.out.println("cachedCalc.longCalculation(9)  ");
+        System.out.println(System.currentTimeMillis()-start + " ms  "); //35-40 ms
         start = System.currentTimeMillis();
-        System.out.println("cachedCalc.longCalculation(5) //cached value");
+        System.out.println("cachedCalc.longCalculation(5) //cached value  ");
         System.out.println(cachedCalc.longCalculation(5));
-        System.out.println(System.currentTimeMillis()-start + " ms"); //0-1 ms
+        System.out.println(System.currentTimeMillis()-start + " ms  "); //0-1 ms
     }
 
     private static Calculator getCachedCalc() throws InstantiationException, IllegalAccessException {
@@ -45,5 +45,6 @@ public class Main implements Representable {
         main(null);
         System.setOut(stdOut);
         writer.flush();
+        writer.write("\n\n");
     }
 }

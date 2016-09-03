@@ -1,6 +1,7 @@
 ********
 # Домашнее задание 01
 ### Реализована задача по загрузке грузовика (см. код)
+
 ********
 # Домашнее задание 04
 ### Реализована Multimap
@@ -46,19 +47,19 @@ ready()
 ********
 # Домашнее задание 06
 ### 6.1 Вывести на консоль все методы класса, включая все родительские методы, (включая приватные). Например, java.io.BufferedReader
-getNominal()
 getMast()
+getNominal()
 getClass()
 ### 6.2 Вывести все геттеры класса. Например, com.norg.home02.shuffleusage.cards.Card
 32.0
-cachedCalc.longCalculation(5)
-63 ms
+cachedCalc.longCalculation(5)  
+74 ms  
 512.0
-cachedCalc.longCalculation(9)
-15 ms
-cachedCalc.longCalculation(5) //cached value
+cachedCalc.longCalculation(9)  
+47 ms  
+cachedCalc.longCalculation(5) //cached value  
 32.0
-0 ms
+0 ms  
 ********
 # Домашнее задание 07
 ### Кэширующий прокси + аннотация @Cache

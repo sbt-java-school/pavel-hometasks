@@ -32,6 +32,7 @@ public class ShuffleDemo implements Representable{
         System.setOut(new PrintStream(outputStream));
         main(null);
         System.setOut(stdOut);
+        writer.write("\n\n");
         writer.flush();
     }
 }
