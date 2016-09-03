@@ -1,9 +1,10 @@
 package com.norg.home01;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import com.norg.representer.Representable;
 
-public class Main {
+import java.io.*;
+
+public class Main implements Representable {
 
     public static void main(String[] args) {
         try (BufferedReader console = new BufferedReader(new InputStreamReader(System.in));) {
@@ -23,5 +24,13 @@ public class Main {
         }catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public void represent(OutputStream outputStream) throws Exception {
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream));
+        writer.write("## Домашнее задание 01");
+        writer.write("=====");
+        writer.write("Реализована задача по загрузке грузовика (см. код)");
     }
 }
