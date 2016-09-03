@@ -1,14 +1,14 @@
 package com.norg.home05;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import com.norg.representer.Representable;
+
+import java.io.*;
 import java.net.MalformedURLException;
 
 /**
  * Home05
  */
-public class Main {
+public class Main implements Representable {
     public static void main(String[] args) throws IOException {
         BufferedReader consoleReader = new BufferedReader(new InputStreamReader(System.in));
         while(true) {
@@ -27,5 +27,14 @@ public class Main {
             }
         }
 
+    }
+
+    @Override
+    public void represent(OutputStream outputStream) throws Exception {
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream));
+        writer.write("# Домашнее задание 05\n");
+        writer.write("=====\n");
+        writer.write("## Реализован метод readContent(), который получает содержимое по URL\n");
+        writer.flush();
     }
 }

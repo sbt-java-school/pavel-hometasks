@@ -1,7 +1,9 @@
 package com.norg.home02.listspeed;
 
+import com.norg.representer.Representable;
 import com.sun.corba.se.impl.orbutil.ObjectUtility;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -10,7 +12,7 @@ import java.util.ListIterator;
 /**
  * Created by Norg on 12.08.2016.
  */
-public class SpeedTest {
+public class SpeedTest implements Representable {
     public static final long COUNT = 1_000_000;
     private static TestObject testObject = new TestObject(); //толстый объект
 
@@ -80,5 +82,18 @@ public class SpeedTest {
         System.out.println("" + linkedListIteratorAccess + " ms");
 
 
+    }
+
+    @Override
+    public void represent(OutputStream outputStream) throws Exception {
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream));
+        writer.write("# Домашнее задание 02\n");
+        writer.write("=====\n");
+        writer.write("## 2.1 Тест скорости коллекций на разных операциях\n");
+        PrintStream stdOut = System.out;
+        System.setOut(new PrintStream(outputStream));
+        main(null);
+        System.setOut(stdOut);
+        writer.flush();
     }
 }

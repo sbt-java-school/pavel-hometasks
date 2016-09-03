@@ -2,13 +2,17 @@ package com.norg.home04;
 
 import com.norg.home04.multimap.MultiMap;
 import com.norg.home04.multimap.MultiMapArrayList;
+import com.norg.representer.Representable;
 
+import java.io.BufferedWriter;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class Application {
+public class Application implements Representable {
     private Map<Long, Truck> truckRegistry = new TreeMap<>();
     private MultiMap<String, Truck> multiMap = new MultiMapArrayList<>();
 
@@ -55,5 +59,14 @@ public class Application {
 
         Collection<Truck> trucks = application.multiMap.get("MAZ");
         System.out.println(trucks);
+    }
+
+    @Override
+    public void represent(OutputStream outputStream) throws Exception {
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream));
+        writer.write("# Домашнее задание 04\n");
+        writer.write("=====\n");
+        writer.write("## Реализована Multimap\n");
+        writer.flush();
     }
 }

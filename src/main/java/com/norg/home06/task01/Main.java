@@ -1,6 +1,8 @@
 package com.norg.home06.task01;
 
-import java.io.BufferedReader;
+import com.norg.representer.Representable;
+
+import java.io.*;
 import java.lang.reflect.Method;
 
 import static com.norg.home06.ClassUtils.getMethodArgs;
@@ -9,7 +11,7 @@ import static com.norg.home06.ClassUtils.getMethodArgs;
  * Вывести	на	консоль	все	методы	класса,	включая	все	родительские	методы
  *(включая	приватные)
  */
-public class Main {
+public class Main implements Representable {
     public static void main(String[] args) throws Exception {
         printAllMethods("java.io.BufferedReader");
     }
@@ -25,5 +27,18 @@ public class Main {
             clazz = clazz.getSuperclass();
             tabs.append("  ");
         }
+    }
+
+    @Override
+    public void represent(OutputStream outputStream) throws Exception {
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream));
+        writer.write("# Домашнее задание 06\n");
+        writer.write("=====\n");
+        writer.write("## 6.1 Вывести на консоль все методы класса, включая все родительские методы, (включая приватные). Например, java.io.BufferedReader\n");
+        PrintStream stdOut = System.out;
+        System.setOut(new PrintStream(outputStream));
+        main(null);
+        System.setOut(stdOut);
+        writer.flush();
     }
 }
