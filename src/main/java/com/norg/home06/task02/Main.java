@@ -32,7 +32,7 @@ public class Main implements Representable {
     @Override
     public void represent(OutputStream outputStream) throws Exception {
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream));
-        writer.write("## 6.2 Вывести все геттеры класса. Например, com.norg.home02.shuffleusage.cards.Card\n");
+        writer.write("### 6.2 Вывести все геттеры класса. Например, com.norg.home02.shuffleusage.cards.Card\n");
         PrintStream stdOut = System.out;
         System.setOut(new PrintStream(outputStream));
         main(null);

@@ -87,9 +87,9 @@ public class SpeedTest implements Representable {
     @Override
     public void represent(OutputStream outputStream) throws Exception {
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream));
+        writer.write("********\n");
         writer.write("# Домашнее задание 02\n");
-        writer.write("=====\n");
-        writer.write("## 2.1 Тест скорости коллекций на разных операциях\n");
+        writer.write("### 2.1 Тест скорости коллекций на разных операциях\n");
         PrintStream stdOut = System.out;
         System.setOut(new PrintStream(outputStream));
         main(null);

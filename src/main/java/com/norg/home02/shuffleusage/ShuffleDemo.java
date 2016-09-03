@@ -27,7 +27,7 @@ public class ShuffleDemo implements Representable{
     @Override
     public void represent(OutputStream outputStream) throws Exception {
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream));
-        writer.write("## 2.2 Демо реализации Comparable(), Collections.sort() и Collections.shuffle()\n");
+        writer.write("### 2.2 Демо реализации Comparable(), Collections.sort() и Collections.shuffle()\n");
         PrintStream stdOut = System.out;
         System.setOut(new PrintStream(outputStream));
         main(null);

@@ -29,9 +29,9 @@ public class Main implements Representable {
     @Override
     public void represent(OutputStream outputStream) throws Exception {
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream));
+        writer.write("********\n");
         writer.write("# Домашнее задание 01\n");
-        writer.write("=====\n");
-        writer.write("## Реализована задача по загрузке грузовика (см. код)\n");
+        writer.write("### Реализована задача по загрузке грузовика (см. код)\n");
         writer.flush();
     }
 }

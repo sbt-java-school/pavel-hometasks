@@ -25,16 +25,16 @@ public class Main implements Representable {
                 System.out.println(tabs.toString() + method.getName() + getMethodArgs(method));
             }
             clazz = clazz.getSuperclass();
-            tabs.append("  ");
+            tabs.append("* ");
         }
     }
 
     @Override
     public void represent(OutputStream outputStream) throws Exception {
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream));
+        writer.write("********\n");
         writer.write("# Домашнее задание 06\n");
-        writer.write("=====\n");
-        writer.write("## 6.1 Вывести на консоль все методы класса, включая все родительские методы, (включая приватные). Например, java.io.BufferedReader\n");
+        writer.write("### 6.1 Вывести на консоль все методы класса, включая все родительские методы, (включая приватные). Например, java.io.BufferedReader\n");
         PrintStream stdOut = System.out;
         System.setOut(new PrintStream(outputStream));
         main(null);

@@ -32,9 +32,9 @@ public class Main implements Representable {
     @Override
     public void represent(OutputStream outputStream) throws Exception {
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream));
+        writer.write("********\n");
         writer.write("# Домашнее задание 05\n");
-        writer.write("=====\n");
-        writer.write("## Реализован метод readContent(), который получает содержимое по URL\n");
+        writer.write("### Реализован метод readContent(), который получает содержимое по URL\n");
         writer.flush();
     }
 }

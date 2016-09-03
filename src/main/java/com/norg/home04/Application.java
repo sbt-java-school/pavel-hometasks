@@ -64,9 +64,9 @@ public class Application implements Representable {
     @Override
     public void represent(OutputStream outputStream) throws Exception {
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream));
+        writer.write("********\n");
         writer.write("# Домашнее задание 04\n");
-        writer.write("=====\n");
-        writer.write("## Реализована Multimap\n");
+        writer.write("### Реализована Multimap\n");
         writer.flush();
     }
 }

@@ -18,11 +18,14 @@ public class Main implements Representable {
 
         long start = System.currentTimeMillis();
         System.out.println(cachedCalc.longCalculation(5));
+        System.out.println("cachedCalc.longCalculation(5)");
         System.out.println(System.currentTimeMillis()-start + " ms"); //60-80 ms
         start = System.currentTimeMillis();
         System.out.println(cachedCalc.longCalculation(9));
+        System.out.println("cachedCalc.longCalculation(9)");
         System.out.println(System.currentTimeMillis()-start + " ms"); //35-40 ms
         start = System.currentTimeMillis();
+        System.out.println("cachedCalc.longCalculation(5) //cached value");
         System.out.println(cachedCalc.longCalculation(5));
         System.out.println(System.currentTimeMillis()-start + " ms"); //0-1 ms
     }
@@ -34,9 +37,9 @@ public class Main implements Representable {
     @Override
     public void represent(OutputStream outputStream) throws Exception {
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream));
+        writer.write("********\n");
         writer.write("# Домашнее задание 07\n");
-        writer.write("=====\n");
-        writer.write("## Кэширующий прокси + аннотация @Cache\n");
+        writer.write("### Кэширующий прокси + аннотация @Cache\n");
         PrintStream stdOut = System.out;
         System.setOut(new PrintStream(outputStream));
         main(null);
