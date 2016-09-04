@@ -53,11 +53,5 @@ public class Main implements Representable {
         writer.write("# Генератор файла README.md\n");
         writer.write("### Добавляет описания и вывод на экран из каждой домашки в этот файл.  \n");
         writer.flush();
-        PrintStream stdOut = System.out;
-        System.setOut(new PrintStream(outputStream));
-        main(null);
-        System.setOut(stdOut);
-        writer.flush();
-        writer.write("\n\n");
     }
 }
