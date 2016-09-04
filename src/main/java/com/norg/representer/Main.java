@@ -17,6 +17,7 @@ public class Main implements Representable {
     }
 
     public static void updateReadme() throws Exception {
+        homeworks.add(new Main());
         homeworks.add(new com.norg.home01.Main());
         homeworks.add(new com.norg.home02.listspeed.SpeedTest());
         homeworks.add(new com.norg.home02.shuffleusage.ShuffleDemo());
@@ -50,7 +51,7 @@ public class Main implements Representable {
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream));
         writer.write("********\n");
         writer.write("# Генератор файла README.md\n");
-        writer.write("Добавляет описания и вывод на экран из каждой домашки в этот файл.  \n");
+        writer.write("### Добавляет описания и вывод на экран из каждой домашки в этот файл.  \n");
         writer.flush();
         PrintStream stdOut = System.out;
         System.setOut(new PrintStream(outputStream));
