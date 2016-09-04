@@ -35,11 +35,12 @@ public class Main implements Representable {
         writer.write("********\n");
         writer.write("# Домашнее задание 06\n");
         writer.write("### 6.1 Вывести на консоль все методы класса, включая все родительские методы, (включая приватные). Например, java.io.BufferedReader\n");
+        writer.flush();
         PrintStream stdOut = System.out;
         System.setOut(new PrintStream(outputStream));
         main(null);
         System.setOut(stdOut);
-        writer.flush();
         writer.write("\n\n");
+        writer.flush();
     }
 }

@@ -1,14 +1,13 @@
 package com.norg.representer;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Автоматическое обновление ридми-файла
  */
-public class Main {
+public class Main implements Representable {
     public static final String README_MD = "README.md";
     private static List<Representable> homeworks;
 
@@ -19,8 +18,8 @@ public class Main {
 
     public static void updateReadme() throws Exception {
         homeworks.add(new com.norg.home01.Main());
-//        homeworks.add(new com.norg.home02.listspeed.SpeedTest());
-//        homeworks.add(new com.norg.home02.shuffleusage.ShuffleDemo());
+        homeworks.add(new com.norg.home02.listspeed.SpeedTest());
+        homeworks.add(new com.norg.home02.shuffleusage.ShuffleDemo());
         homeworks.add(new com.norg.home04.Application());
         homeworks.add(new com.norg.home05.Main());
         homeworks.add(new com.norg.home06.task01.Main());
@@ -44,5 +43,20 @@ public class Main {
             System.out.println("Processing task " + homeWork.getClass().getName());
             homeWork.represent(readMeOutputStream);
         }
+    }
+
+    @Override
+    public void represent(OutputStream outputStream) throws Exception {
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream));
+        writer.write("********\n");
+        writer.write("# Генератор файла README.md\n");
+        writer.write("Добавляет описания и вывод на экран из каждой домашки в этот файл.  \n");
+        writer.flush();
+        PrintStream stdOut = System.out;
+        System.setOut(new PrintStream(outputStream));
+        main(null);
+        System.setOut(stdOut);
+        writer.flush();
+        writer.write("\n\n");
     }
 }

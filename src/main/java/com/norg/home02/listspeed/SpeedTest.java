@@ -10,10 +10,10 @@ import java.util.List;
 import java.util.ListIterator;
 
 /**
- * Created by Norg on 12.08.2016.
+ * Тест скорости коллекций
  */
 public class SpeedTest implements Representable {
-    public static final long COUNT = 1_000_000;
+    public static final long COUNT = 500_000;
     private static TestObject testObject = new TestObject(); //толстый объект
 
     public static void main(String[] args) {
@@ -90,11 +90,13 @@ public class SpeedTest implements Representable {
         writer.write("********\n");
         writer.write("# Домашнее задание 02\n");
         writer.write("### 2.1 Тест скорости коллекций на разных операциях\n");
+        writer.flush();
         PrintStream stdOut = System.out;
         System.setOut(new PrintStream(outputStream));
         main(null);
         System.setOut(stdOut);
         writer.write("\n\n");
         writer.flush();
+        writer.write("#### Вывод: Случайное чтение LinkedList почти не проигрывает по скорости ArrayList'у, если использовать ListIterator.  \n");
     }
 }

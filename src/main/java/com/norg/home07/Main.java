@@ -25,7 +25,7 @@ public class Main implements Representable {
         System.out.println("cachedCalc.longCalculation(9)  ");
         System.out.println(System.currentTimeMillis()-start + " ms  "); //35-40 ms
         start = System.currentTimeMillis();
-        System.out.println("cachedCalc.longCalculation(5) //cached value  ");
+        System.out.println("cachedCalc.longCalculation(5) // cached value  ");
         System.out.println(cachedCalc.longCalculation(5));
         System.out.println(System.currentTimeMillis()-start + " ms  "); //0-1 ms
     }
@@ -40,6 +40,7 @@ public class Main implements Representable {
         writer.write("********\n");
         writer.write("# Домашнее задание 07\n");
         writer.write("### Кэширующий прокси + аннотация @Cache\n");
+        writer.flush();
         PrintStream stdOut = System.out;
         System.setOut(new PrintStream(outputStream));
         main(null);
