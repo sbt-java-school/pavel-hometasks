@@ -96,3 +96,14 @@ cachedCalc.longCalculation(9)
 cachedCalc.longCalculation(5) // cached value  
 32.0
 0 ms  
+********
+# Домашнее задание 10
+### Сериализующий прокси + readObject()/writeObject()
+Before: ChildSerializable{id='1'name='Odin'}  
+Starting serialization...  
+Enclosing writeReplace()  
+Proxy writeObject()  
+Starting DE-serialization...  
+Proxy readObject()  
+Proxy readResolve()  
+After: ChildSerializable{id='1'name='Odin'}  
