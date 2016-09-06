@@ -1,15 +1,11 @@
 package com.norg.home10.serializationproxy;
 
-import com.norg.home10.serializationproxy.parent.NotSerializable;
 import com.norg.representer.Representable;
 
 import java.io.OutputStream;
-import java.io.Serializable;
-import java.util.EnumSet;
-import java.util.Set;
 
 /**
- * Демо Serialization Proxy Pattern
+ * Serialization Proxy Pattern Demo
  */
 public class Main implements Representable {
 

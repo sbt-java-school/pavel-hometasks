@@ -1,7 +1,7 @@
 package com.norg.home10.serializationproxy.parent;
 
 /**
- * Created by Norg on 06.09.2016.
+ * Parent without default constructor breaks down default serialization
  */
 public abstract class NotSerializable {
     protected final int id;
