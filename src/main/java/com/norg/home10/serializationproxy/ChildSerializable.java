@@ -16,18 +16,18 @@ public class ChildSerializable extends NotSerializable implements Serializable {
     }
 
     private Object writeReplace() {
-        System.out.println("writeReplace()");
+        System.out.println("Enclosing writeReplace()  ");
         return new SerializationProxy(this);
     }
 
     private void writeObject(ObjectOutputStream out) throws IOException {
-        System.out.println("writeObject()");
+        System.out.println("Enclosing writeObject()  ");
         name = new StringBuilder(name).reverse().toString();
         out.defaultWriteObject();
     }
 
     private void readObject(ObjectInputStream in) throws IOException, ClassNotFoundException {
-        System.out.println("readObject()");
+        System.out.println("Enclosing readObject()  ");
         in.defaultReadObject();
         name = new StringBuilder(name).reverse().toString();
     }
@@ -46,18 +46,18 @@ public class ChildSerializable extends NotSerializable implements Serializable {
         }
 
         private Object readResolve() {
-            System.out.println("Proxy readResolve()");
+            System.out.println("Proxy readResolve()  ");
             return new ChildSerializable(id, name);
         }
 
         private void writeObject(ObjectOutputStream out) throws IOException {
-            System.out.println("Proxy writeObject()");
+            System.out.println("Proxy writeObject()  ");
             name = new StringBuilder(name).reverse().toString();
             out.defaultWriteObject();
         }
 
         private void readObject(ObjectInputStream in) throws IOException, ClassNotFoundException {
-            System.out.println("Proxy readObject()");
+            System.out.println("Proxy readObject()  ");
             in.defaultReadObject();
             name = new StringBuilder(name).reverse().toString();
         }
