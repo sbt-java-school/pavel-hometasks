@@ -42,6 +42,13 @@ public class Main implements Representable {
         System.setOut(stdOut);
         writer.flush();
         writer.write("\n\n  ");
+        System.out.println("### Выводы:  \n" +
+                "1. readResolve() и writeReplace() позволяют подменить объект при сериализации-десериализации  \n" +
+                "2. writeReplace() вызывается у сериализуемого объекта, readResolve() - у объекта внутреннего прокси-класса " +
+                "(если только при сериализации объект не был сериализован без участия прокси)  \n" +
+                "3. При сериализации первым вызывается writeReplace() (и наоборот для readResolve())  \n" +
+                "4. readObject() и writeObject() вызываются у объекта, который фактически пишется в/читается из Object Stream  \n"
+        );
     }
 
 
