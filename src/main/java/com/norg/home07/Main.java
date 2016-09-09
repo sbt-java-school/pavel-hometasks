@@ -30,7 +30,7 @@ public class Main implements Representable {
         System.out.println(System.currentTimeMillis()-start + " ms  "); //0-1 ms
     }
 
-    private static Calculator getCachedCalc() throws InstantiationException, IllegalAccessException {
+    static Calculator getCachedCalc() throws InstantiationException, IllegalAccessException {
         return (Calculator) Proxy.newProxyInstance(Main.class.getClassLoader(), new Class<?>[] {Calculator.class}, new CachedInvocationHandler(new CalculatorImpl()));
     }
 
