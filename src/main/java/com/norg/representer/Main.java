@@ -22,15 +22,22 @@ public class Main implements Representable {
 //        homeworks.add(new com.norg.home02.listspeed.SpeedTest());
 //        homeworks.add(new com.norg.home02.shuffleusage.ShuffleDemo());
 //        homeworks.add(new com.norg.home04.Application());
-//        homeworks.add(new com.norg.home05.Main());
-//        homeworks.add(new com.norg.home06.task01.Main());
-//        homeworks.add(new com.norg.home06.task02.Main());
-//        homeworks.add(new com.norg.home07.Main());
+        homeworks.add(new com.norg.home05.Main());
+        homeworks.add(new com.norg.home06.task01.Main());
+        homeworks.add(new com.norg.home06.task02.Main());
+        homeworks.add(new com.norg.home07.Main());
         homeworks.add(new com.norg.home10.serializationproxy.Main());
         FileOutputStream readMeOutputStream = new FileOutputStream(README_MD, append);
         for (Representable homeWork : homeworks) {
+            String localReadmePath = "src/main/java/" + homeWork.getClass().getPackage().getName().replaceAll("\\.", "/") + "/" + README_MD;
             System.out.println("Processing task " + homeWork.getClass().getName());
-            homeWork.represent(readMeOutputStream);
+            try (FileOutputStream localReadMeOutputStream = new FileOutputStream(localReadmePath);) {
+                homeWork.represent(localReadMeOutputStream);
+            }catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+
+//            homeWork.represent(readMeOutputStream);
         }
         try {
             readMeOutputStream.close();
