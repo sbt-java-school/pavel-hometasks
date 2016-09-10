@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/src/main/java/com/norg/home09/home09.iml" filepath="$PROJECT_DIR$/src/main/java/com/norg/home09/home09.iml" />
       <module fileurl="file://$PROJECT_DIR$/pavel-hometasks.iml" filepath="$PROJECT_DIR$/pavel-hometasks.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/main/java/com/norg/home09/src/test/test.iml" filepath="$PROJECT_DIR$/src/main/java/com/norg/home09/src/test/test.iml" />
     </modules>

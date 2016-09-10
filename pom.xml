@@ -22,7 +22,7 @@
         </plugins>
     </build>
     <modules>
-        <module>src/main/java/com/norg/home09</module>
+
     </modules>
 
     <dependencies>
