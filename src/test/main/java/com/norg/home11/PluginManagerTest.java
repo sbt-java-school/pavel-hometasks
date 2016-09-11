@@ -8,10 +8,10 @@ import org.junit.Test;
  */
 public class PluginManagerTest {
 
-    public static final String PLUGIN_DIRECTORY = "file:///C:/temp/";
+    public static final String PLUGIN_DIRECTORY = "file:///temp/";
 
     @Test
-    public void loadPlugin() throws Exception {
+    public void loadPluginTest() throws Exception {
         new TestPlugin().doUseful();
         PluginManager manager = new PluginManager(PLUGIN_DIRECTORY);
         Plugin testPlugin = manager.load("testPlugin", "com.norg.home11.testplugins.TestPlugin");
