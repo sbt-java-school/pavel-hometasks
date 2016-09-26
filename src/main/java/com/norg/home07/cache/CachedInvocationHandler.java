@@ -5,6 +5,7 @@ import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * InvocationHandler, which caches method invocation results
@@ -12,7 +13,7 @@ import java.util.Map;
 
 public class CachedInvocationHandler implements InvocationHandler {
     private final Object delegate;
-    private Map<InvokeContext, Object> cache = new HashMap<>();
+    private Map<InvokeContext, Object> cache = new ConcurrentHashMap<>();
 
     public CachedInvocationHandler(Object delegate) throws IllegalAccessException, InstantiationException {
         this.delegate = delegate;
