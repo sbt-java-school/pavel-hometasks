@@ -1,4 +1,4 @@
-package com.norg.home12;
+package com.norg.home12.streams;
 
 import java.util.HashMap;
 import java.util.List;
