@@ -1,6 +1,8 @@
 package com.norg.home19;
 
+import com.norg.home19.abstractnodes.Node;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -10,6 +12,7 @@ import java.util.Map;
  *
  */
 public class NodesTest {
+    private Node compareNode;
 
     @Test
     public void nodesDemo() {
@@ -31,13 +34,37 @@ public class NodesTest {
     }
 
     @Test
+    //Проверяет, что при выполнении условия amountOfCredit/periodOfMonths < salary/2 кредит одобряется
     public void homeTaskApproved() {
-        //реализовать
+        Map<String, Object> params = new HashMap<>();
+        params.put("Salary", 60_000);
+        params.put("SalaryDivider", 2);
+        params.put("AmountOfCredit", 200_000);
+        params.put("Months", 24);
+
+        Assert.assertTrue("Credit must be approved!", compareNode.getResult(params) < 0f);
     }
 
     @Test
+    //Проверяет, что при невыполнении условия amountOfCredit/periodOfMonths < salary/2 кредит не одобряется
     public void homeTaskRefused() {
-        //реализовать
+        Map<String, Object> params = new HashMap<>();
+        params.put("Salary", 50_000);
+        params.put("SalaryDivider", 2);
+        params.put("AmountOfCredit", 2_000_000);
+        params.put("Months", 12);
+
+        Assert.assertTrue("Credit must be refused!", compareNode.getResult(params) >= 0f);
     }
 
+    @Before
+    public void setNode() {
+        //создаем ноды снизу вверх (мне так удобнее)
+        Node salaryNode = new DivideNode("Salary", "SalaryDivider");
+        Node monthlyPayNode = new DivideNode("AmountOfCredit", "Months");
+
+        compareNode = new CompareNode();
+        compareNode.addNode(monthlyPayNode);
+        compareNode.addNode(salaryNode);
+    }
 }

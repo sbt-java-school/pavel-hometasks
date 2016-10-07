@@ -1,5 +1,7 @@
 package com.norg.home19;
 
+import com.norg.home19.abstractnodes.AbstractNode;
+
 /**
  * Листовая нода, проверяющая город из входных параметров на соответствие заданному в конструкторе
  */
