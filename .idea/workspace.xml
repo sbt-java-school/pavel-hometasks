@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b7b500a-678a-44f7-a7fc-6393644fd501" name="Default" comment="задание 18.1 (многопоточная клиент-серверная гадалка). Готова реализация.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/Gadalka.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/GadalkaClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/GadalkaCommands.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/MultipleClients.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/SocketServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/exception/BusinessException.java" />
+    <list default="true" id="4b7b500a-678a-44f7-a7fc-6393644fd501" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="pavel-hometasks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GadalkaClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GadalkaClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/GadalkaClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state relative-caret-position="255">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultipleClients.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MultipleClients.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/MultipleClients.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -920,7 +913,7 @@
       <workItem from="1475063611207" duration="657000" />
       <workItem from="1475147366028" duration="130000" />
       <workItem from="1475803426155" duration="799000" />
-      <workItem from="1475909797248" duration="1660000" />
+      <workItem from="1475909797248" duration="1799000" />
     </task>
     <task id="LOCAL-00001" summary="навел порядок в папке проекта&#10;добавил зависимости junit и mockito">
       <created>1473333315171</created>
@@ -978,11 +971,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475803901640</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="задание 18.1 (многопоточная клиент-серверная гадалка). Готова реализация.">
+      <created>1475911727072</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1475911727072</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32460000" />
+    <option name="totallyTimeSpent" value="32599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1281,14 +1281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/MultipleClients.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/exception/BusinessException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1341,11 +1333,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/GadalkaClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        <state relative-caret-position="255">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/MultipleClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
