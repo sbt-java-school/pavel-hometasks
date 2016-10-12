@@ -23,7 +23,6 @@ public class ChatClient implements Runnable {
     private final PrintStream userPrintStream;
     private ObjectInputStream socketIn;
     private ObjectOutputStream socketOut;
-    private final String name;
 
     public final String REMOTE_HOST;
     public final int REMOTE_PORT;
@@ -36,7 +35,6 @@ public class ChatClient implements Runnable {
         this.userInputStream = userInputStream;
         this.REMOTE_HOST = host;
         this.REMOTE_PORT = port;
-        this.name = name;
         this.userPrintStream = new PrintStream(userOutputStream);
 
         logger.debug("Connecting...");

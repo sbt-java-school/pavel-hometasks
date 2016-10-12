@@ -10,7 +10,7 @@ import java.io.IOException;
 public class StartClient {
     public static void main(String[] args) throws IOException {
 
-        ChatClient client = new ChatClient("Client1");
+        ChatClient client = new ChatClient("test2");
         new Thread(client).start();
     }
 }
