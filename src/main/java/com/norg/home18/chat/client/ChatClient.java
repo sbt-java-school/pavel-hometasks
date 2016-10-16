@@ -24,17 +24,21 @@ public class ChatClient implements Runnable {
     private ObjectInputStream socketIn;
     private ObjectOutputStream socketOut;
 
-    public final String REMOTE_HOST;
-    public final int REMOTE_PORT;
+    public final String remoteHost;
+    public final int remotePort;
 
     public ChatClient(String name) throws IOException {
         this(name, "localhost", 5555, System.in, System.out);
     }
 
+    public ChatClient(String name, String host, int port) throws IOException {
+        this(name, host, port, System.in, System.out);
+    }
+
     public ChatClient(String name, String host, int port, InputStream userInputStream, OutputStream userOutputStream) throws IOException {
         this.userInputStream = userInputStream;
-        this.REMOTE_HOST = host;
-        this.REMOTE_PORT = port;
+        this.remoteHost = host;
+        this.remotePort = port;
         this.userPrintStream = new PrintStream(userOutputStream);
 
         logger.debug("Connecting...");
