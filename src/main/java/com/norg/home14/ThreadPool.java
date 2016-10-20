@@ -5,7 +5,7 @@ import sun.plugin.dom.exception.InvalidStateException;
 import java.util.LinkedList;
 
 /**
- * Created by Norg on 17.09.2016.
+ * Свой тред пул
  */
 public class ThreadPool {
     private boolean terminated = false;
