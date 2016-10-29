@@ -1,123 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2b5ffa8-ab0f-4e03-8ab8-0d3b9b1d6bf0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="4b7b500a-678a-44f7-a7fc-6393644fd501" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recipe-book/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home01/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home01/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home01/Truck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home02/listspeed/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home02/listspeed/SpeedTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home02/listspeed/TestObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home02/shuffleusage/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home02/shuffleusage/ShuffleDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home02/shuffleusage/cards/Card.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home02/shuffleusage/cards/Deck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home02/shuffleusage/cards/Mast.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home04/Application.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home04/MegaTruck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home04/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home04/Truck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home04/TruckDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home04/TruckDaoMemoryImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home04/multimap/MultiMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home04/multimap/MultiMapArrayList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home05/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home05/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home05/URLHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home06/ClassUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home06/task01/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home06/task01/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home06/task02/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home06/task02/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home06/task03/BeanUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home06/task03/BeanUtilsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home07/Calculator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home07/CalculatorImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home07/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home07/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home07/cache/Cache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home07/cache/CachedInvocationHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home10/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home10/serializationproxy/ChildSerializable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home10/serializationproxy/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home10/serializationproxy/parent/NotSerializable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home10/singletonserialization/BrokenSingleton.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home10/singletonserialization/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home10/singletonserialization/SerializableSingleton.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home11/Plugin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home11/PluginLoader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home11/PluginManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home11/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home11/testplugins/TestPlugin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home12/BestStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home12/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home12/streams/AbstractPipeline.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home12/streams/Streams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home12/streams/TerminalOperation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home14/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home14/ThreadPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home16/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home16/Demo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home16/Hairdresser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/StartClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/StartServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/client/ChatClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/exception/WrongInputException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/ChatConnectionServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/ChatServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/dao/InMemoryMessageDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/dao/MessageDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/model/ChatCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/model/ChatMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/model/ChatMessageTextImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/Gadalka.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/GadalkaClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/GadalkaCommands.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/MultipleClients.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/SocketServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/exception/BusinessException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home19/AverageNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home19/CityNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home19/CompareNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home19/DivideNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home19/ParametersNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home19/PlusNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home19/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home19/abstractnodes/AbstractNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home19/abstractnodes/Node.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home19/abstractnodes/NodeOperation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home20/ConverterImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home20/ConverterToImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home20/Demo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home20/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home20/abstractions/Converter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home20/abstractions/ConverterFrom.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home20/abstractions/ConverterTo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home20/detailedconverters/ConverterFromBooleanToInt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home20/detailedconverters/ConverterFromBooleanToString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home20/detailedconverters/ConverterFromExceptionToString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/home20/detailedconverters/ConverterFromStringToInt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/representer/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/representer/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/norg/representer/Representable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/main/java/com/norg/home07/CachedProxyTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/main/java/com/norg/home10/serializationproxy/SerializationProxyTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/main/java/com/norg/home10/singletonserialization/SingletonSerializationTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/main/java/com/norg/home11/PluginManagerTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/main/java/com/norg/home14/ThreadPoolTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/main/java/com/norg/home19/NodesTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/main/java/com/norg/home20/ConverterTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/testPlugin/com/norg/home11/testplugins/TestPlugin.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pavel-hometasks.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/src/main/java/com/norg/home09/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/recipe-book/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,12 +27,96 @@
   <component name="FavoritesManager">
     <favorites_list name="pavel-hometasks" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/recipe-book/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="16-sleeping" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home19/ParametersNode.java" />
+        <option value="$PROJECT_DIR$/src/test/main/java/com/norg/home19/NodesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/SocketServer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/Gadalka.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/GadalkaClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/ChatCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/ChatServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/ChatMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/ChatStorage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/ChatClientConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/storage/ChatClientConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/ChatCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/service/ChatMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/service/ChatCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/storage/ChatStorage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/storage/MessageDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/dao/MessageDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/ChatClientConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/client/ChatClientInputStreamImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/dao/InMemoryMessageDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/model/ChatMessageTextImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/StartServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/ChatServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/ChatConnectionServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/exception/WrongInputException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/model/ChatMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/StartClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home19/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/chat/client/ChatClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home18/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/lesson20/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home20/abstractions/Converter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home20/abstractions/ConverterFrom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home20/detailedconverters/ConverterFromBooleanToInt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home20/detailedconverters/ConverterFromBooleanToString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home20/detailedconverters/ConverterFromExceptionToString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home20/detailedconverters/ConverterFromStringToInt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home20/ConverterImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home20/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home20/abstractions/ConverterTo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home20/ConverterToImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/main/java/com/norg/home20/ConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home14/ThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home14/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home11/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home10/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home07/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/norg/home05/README.md" />
+        <option value="$PROJECT_DIR$/recipe-book/pom.xml" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -145,6 +124,21 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -177,8 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -196,90 +188,134 @@
               <option name="myItemId" value="pavel-hometasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recipe-book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pavel-hometasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pavel-hometasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recipe-book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pavel-hometasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pavel-hometasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recipe-book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pavel-hometasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pavel-hometasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pavel-hometasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pavel-hometasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pavel-hometasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="extract.method.default.visibility" value="private" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15332031" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Norg\Google Диск\JavaProjects\SberTech\hometasks\pavel-hometasks\src\main\java\com\norg\home10" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.norg.home16" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.norg.home18.chat.server" />
+      <recent name="com.norg.home19" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Norg\Google Диск\JavaProjects\SberTech\hometasks\pavel-hometasks\src\main\java\com\norg\home11" />
+      <recent name="C:\Users\Norg\Google Диск\JavaProjects\SberTech\hometasks\pavel-hometasks\src\main\java\com\norg\home14" />
+      <recent name="C:\Users\Norg\Google Диск\JavaProjects\SberTech\hometasks\pavel-hometasks\src\main\java\com\norg\home18" />
+      <recent name="C:\Users\Norg\Google Диск\JavaProjects\SberTech\hometasks\pavel-hometasks\src\main\java\com\norg\home18\gadalka" />
+      <recent name="C:\Users\Norg\Google Диск\JavaProjects\SberTech\hometasks\pavel-hometasks\src\main\java\com\norg\home19" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ConverterTest">
+    <configuration default="false" name="StartServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.norg.home18.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.norg.home18.chat.StartServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sbt-hometasks" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="StartClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.norg.home18.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.norg.home18.chat.StartClient" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sbt-hometasks" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.norg.home20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="sbt-hometasks" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.norg.home20" />
+      <option name="MAIN_CLASS_NAME" value="com.norg.home20.ConverterTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConverterTest.convert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.norg.home20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="sbt-hometasks" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.norg.home20" />
+      <option name="MAIN_CLASS_NAME" value="com.norg.home20.ConverterTest" />
+      <option name="METHOD_NAME" value="convert" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -593,6 +629,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
@@ -710,6 +768,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -753,6 +817,20 @@
       <envs />
       <method />
     </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.StartServer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StartClient" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ConverterTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ConverterTest.convert" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ConverterTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ConverterTest.convert" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StartClient" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StartServer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -762,49 +840,255 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b2b5ffa8-ab0f-4e03-8ab8-0d3b9b1d6bf0" name="Default" comment="" />
-      <created>1477735680878</created>
+      <changelist id="4b7b500a-678a-44f7-a7fc-6393644fd501" name="Default" comment="" />
+      <created>1473331323869</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1477735680878</updated>
-      <workItem from="1477735685441" duration="105000" />
+      <updated>1473331323869</updated>
+      <workItem from="1473331328629" duration="124000" />
+      <workItem from="1473331523756" duration="4416000" />
+      <workItem from="1473429279533" duration="4361000" />
+      <workItem from="1473478196605" duration="4918000" />
+      <workItem from="1474271038611" duration="3727000" />
+      <workItem from="1474702630182" duration="5969000" />
+      <workItem from="1474774290721" duration="572000" />
+      <workItem from="1474784696076" duration="116000" />
+      <workItem from="1474975697020" duration="5011000" />
+      <workItem from="1475063611207" duration="657000" />
+      <workItem from="1475147366028" duration="130000" />
+      <workItem from="1475803426155" duration="799000" />
+      <workItem from="1475909797248" duration="5337000" />
+      <workItem from="1475929177766" duration="100000" />
+      <workItem from="1475983651721" duration="18758000" />
+      <workItem from="1476101660025" duration="1193000" />
+      <workItem from="1476192649407" duration="1361000" />
+      <workItem from="1476278131656" duration="78000" />
+      <workItem from="1476284396128" duration="841000" />
+      <workItem from="1476355065878" duration="2260000" />
+      <workItem from="1476600733956" duration="2383000" />
+      <workItem from="1476703303510" duration="53000" />
+      <workItem from="1476772740694" duration="3326000" />
+      <workItem from="1476939203449" duration="6100000" />
+      <workItem from="1477306565708" duration="3146000" />
+      <workItem from="1477710817143" duration="659000" />
+      <workItem from="1477735038230" duration="499000" />
     </task>
+    <task id="LOCAL-00001" summary="навел порядок в папке проекта&#10;добавил зависимости junit и mockito">
+      <created>1473333315171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1473333315171</updated>
+    </task>
+    <task id="LOCAL-00002" summary="добавил болванки для тестов по 10 заданию">
+      <created>1473334272597</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1473334272597</updated>
+    </task>
+    <task id="LOCAL-00003" summary="реализованы тесты для задания 10&#10;добавлены выводы по заданию 10">
+      <created>1473428235530</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1473428235530</updated>
+    </task>
+    <task id="LOCAL-00004" summary="работы по заданию 12 (Стрим)">
+      <created>1474704165446</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1474704165446</updated>
+    </task>
+    <task id="LOCAL-00005" summary="работы по заданию 12 (Стрим)&#10;написал filter">
+      <created>1474706662126</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1474706662126</updated>
+    </task>
+    <task id="LOCAL-00006" summary="работы по заданию 12 (Стрим)&#10;написал toMap()">
+      <created>1474708818995</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1474708818995</updated>
+    </task>
+    <task id="LOCAL-00007" summary="работы по заданию 16 (спящий парикмахер)&#10;реализована модель парикмахера">
+      <created>1474980704389</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1474980704389</updated>
+    </task>
+    <task id="LOCAL-00008" summary="задание 19 (паттерны). Почти доделаны тесты.">
+      <created>1475803901640</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1475803901640</updated>
+    </task>
+    <task id="LOCAL-00009" summary="задание 18.1 (многопоточная клиент-серверная гадалка). Готова реализация.">
+      <created>1475911727072</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1475911727072</updated>
+    </task>
+    <task id="LOCAL-00010" summary="задание 18.1 (многопоточная клиент-серверная гадалка). Готова реализация.">
+      <created>1475911852346</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1475911852346</updated>
+    </task>
+    <task id="LOCAL-00011" summary="задание 18.2 (чат). Готово. MessageDao (хранение сообщений) реализовано in memory (на ConcurrentHashMap с CopyOnWriteArrayList в качестве значения).">
+      <created>1476003774967</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1476003774967</updated>
+    </task>
+    <task id="LOCAL-00012" summary="удалил лишнее">
+      <created>1476284632954</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1476284632954</updated>
+    </task>
+    <task id="LOCAL-00013" summary="добавил ридми к домашке 19 (расчет платежеспособности клиента)">
+      <created>1476601245978</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1476601245978</updated>
+    </task>
+    <task id="LOCAL-00014" summary="добавлен еще один упрощенный конструктор, принимающий кроме имени еще и адрес хоста с портом.">
+      <created>1476602702135</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1476602702135</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Добавил ридми к домашке 18 (чат и гадалка).">
+      <created>1476602853502</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1476602853502</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Домашка 20 (конвертер из всего во всё). Реализация (с основными конвертерами).">
+      <created>1476775753486</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1476775753486</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Домашка 20 (конвертер из всего во всё). Тесты.">
+      <created>1476775774806</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1476775774806</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Домашка 20 (конвертер из всего во всё). Ридми.">
+      <created>1476775792951</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1476775792951</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Домашка 14 (тред пул). Ридми.">
+      <created>1476940043278</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1476940043278</updated>
+    </task>
+    <task id="LOCAL-00020" summary="добавил/улучшил несколько ридми.">
+      <created>1477310445599</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1477310445599</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ConverterTest - 2016.10.18 at 14h 05m 07s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConverterTest - 2016.10.18 at 14h 06m 19s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConverterTest - 2016.10.18 at 14h 27m 52s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConverterTest_convert - 2016.10.18 at 14h 24m 15s.xml">
+      <configuration name="ConverterTest.convert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConverterTest_convert - 2016.10.18 at 14h 27m 42s.xml">
+      <configuration name="ConverterTest.convert" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105000" />
+    <option name="totallyTimeSpent" value="76894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30211818" sideWeight="0.50262815" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24307036" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30211818" sideWeight="0.63140607" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28762543" sideWeight="0.49751243" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.49737188" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.49737188" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -817,8 +1101,518 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="навел порядок в папке проекта&#10;добавил зависимости junit и mockito" />
+    <MESSAGE value="добавил болванки для тестов по 10 заданию" />
+    <MESSAGE value="реализованы тесты для задания 10&#10;добавлены выводы по заданию 10" />
+    <MESSAGE value="работы по заданию 12 (Стрим)" />
+    <MESSAGE value="работы по заданию 12 (Стрим)&#10;написал filter" />
+    <MESSAGE value="работы по заданию 12 (Стрим)&#10;написал toMap()" />
+    <MESSAGE value="работы по заданию 16 (спящий парикмахер)&#10;реализована модель парикмахера" />
+    <MESSAGE value="задание 19 (паттерны). Почти доделаны тесты." />
+    <MESSAGE value="задание 18.1 (многопоточная клиент-серверная гадалка). Готова реализация." />
+    <MESSAGE value="задание 18.2 (чат). Готово. MessageDao (хранение сообщений) реализовано in memory (на ConcurrentHashMap с CopyOnWriteArrayList в качестве значения)." />
+    <MESSAGE value="удалил лишнее" />
+    <MESSAGE value="добавил ридми к домашке 19 (расчет платежеспособности клиента)" />
+    <MESSAGE value="добавлен еще один упрощенный конструктор, принимающий кроме имени еще и адрес хоста с портом." />
+    <MESSAGE value="Добавил ридми к домашке 18 (чат и гадалка)." />
+    <MESSAGE value="Домашка 20 (конвертер из всего во всё). Реализация (с основными конвертерами)." />
+    <MESSAGE value="Домашка 20 (конвертер из всего во всё). Тесты." />
+    <MESSAGE value="Домашка 20 (конвертер из всего во всё). Ридми." />
+    <MESSAGE value="Домашка 14 (тред пул). Ридми." />
+    <MESSAGE value="добавил/улучшил несколько ридми." />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил/улучшил несколько ридми." />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="16" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/chat/client/ChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="4426" column="25" selection-start-line="4426" selection-start-column="25" selection-end-line="4426" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/chat/client/ChatConnectionClient.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="1168" column="63" selection-start-line="1168" selection-start-column="63" selection-end-line="1168" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="800" column="19" selection-start-line="800" selection-start-column="19" selection-end-line="800" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/model/ChatMessageTextImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="1928" column="20" selection-start-line="1928" selection-start-column="20" selection-end-line="1928" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/chat/exception/WrongInputException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/dao/MessageDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/dao/InMemoryMessageDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/ChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/model/ChatMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/README/md.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/chat/StartClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/chat/StartServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home19/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="238">
+            <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/chat/client/ChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="221">
+            <caret line="13" column="298" selection-start-line="13" selection-start-column="298" selection-end-line="13" selection-end-column="298" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/ChatConnectionServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="72" column="82" selection-start-line="72" selection-start-column="82" selection-end-line="72" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/gadalka/GadalkaClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home19/CityNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home19/abstractnodes/AbstractNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home18/chat/server/model/ChatCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home20/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/java/com/norg/home19/NodesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home20/detailedconverters/ConverterFromStringToInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home20/detailedconverters/ConverterFromExceptionToString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home20/detailedconverters/ConverterFromBooleanToString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home20/detailedconverters/ConverterFromBooleanToInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home20/abstractions/ConverterFrom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home20/abstractions/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home20/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home20/ConverterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home20/ConverterToImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home20/abstractions/ConverterTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/java/com/norg/home20/ConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="58" column="73" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home14/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home14/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home11/README.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="82" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home06/task01/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home05/URLHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home07/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="117" selection-start-line="5" selection-start-column="117" selection-end-line="5" selection-end-column="117" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home10/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="122" selection-start-line="6" selection-start-column="122" selection-end-line="6" selection-end-column="122" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home07/CalculatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home07/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home04/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/norg/home05/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recipe-book/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sbt-hometasks</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
